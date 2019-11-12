@@ -1573,6 +1573,7 @@ class FrameworkExtension extends Extension
             'after' => [
                 ['id' => 'send_message'],
                 ['id' => 'handle_message'],
+                ['id' => 'reply_middleware'],
             ],
         ];
         foreach ($config['buses'] as $busId => $bus) {
